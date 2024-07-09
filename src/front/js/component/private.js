@@ -51,11 +51,11 @@ export const Private = () => {
     return (
         <>
             <div>
-                <h1>HELLO, only authenticated users can enter and renders this component</h1>
+                <h1>only authenticated users will see this</h1>
 
                 <div className="d-flex flex-row justify-content-around">
-                    <img src="https://www.iebschool.com/blog/wp-content/uploads/2015/03/hacer-venta.gif" />
-                    <button className="btn btn-danger" onClick={handleLogout}>Log Out</button>
+                <img src="https://img.freepik.com/vector-gratis/dibujado-mano-ilustracion-baile-gaucho_23-2149198742.jpg?size=626&ext=jpg&ga=GA1.2.1436477088.1720564313&semt=ais_hybrid" alt="Gauchos Bailando"/>
+                <button className="btn btn-danger" onClick={handleLogout}>Log Out</button>
                 </div>
 
             </div>

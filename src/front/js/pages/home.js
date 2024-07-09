@@ -23,7 +23,7 @@ export const Home = () => {
 					Read documentation
 				</a>
 			</p>
-			<button className="btn btn-primary" onClick={() => navigate("/login")} >IR A LA APLICACION</button>
+			<button className="btn btn-primary" onClick={() => navigate("/login")} >Go to App</button>
 		</div>
 	);
 };
